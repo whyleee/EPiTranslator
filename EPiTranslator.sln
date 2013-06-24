@@ -10,6 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{875684
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiTranslator.Mvc", "EPiTranslator.Mvc\EPiTranslator.Mvc.csproj", "{DB0B5E99-576C-4FFD-8971-0E128C9E1FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD5251D5-8942-4E4D-99D6-410E963A4DFB}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +27,10 @@ Global
 		{4222E468-C113-4022-99C5-2BE42CA8F1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4222E468-C113-4022-99C5-2BE42CA8F1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4222E468-C113-4022-99C5-2BE42CA8F1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0B5E99-576C-4FFD-8971-0E128C9E1FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B5E99-576C-4FFD-8971-0E128C9E1FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B5E99-576C-4FFD-8971-0E128C9E1FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B5E99-576C-4FFD-8971-0E128C9E1FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
