@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>EPiTranslator.Mvc</id>
+        <version>2.0</version>
+        <authors>Pavel Nezhencev</authors>
+        <projectUrl>https://github.com/whyleee/EPiTranslator</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>ASP.NET MVC HTML translation helpers and support for models localization.</description>
+        <releaseNotes>- Razor view extensions for text translations
+- MVC models localization support</releaseNotes>
+        <dependencies>
+            <dependency id="EPiTranslator" version="2.0" />
+            <dependency id="EPiServer.Framework" version="7.0.859.1" />
+            <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+            <dependency id="Perks" version="1.3.1" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+            <frameworkAssembly assemblyName="System" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+            <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="net45\EPiTranslator.Mvc.dll" target="lib\net45\EPiTranslator.Mvc.dll" />
+        <file src="net45\EPiTranslator.Mvc.xml" target="lib\net45\EPiTranslator.Mvc.xml" />
+    </files>
+</package>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>EPiTranslator</id>
+        <version>2.0</version>
+        <authors>Pavel Nezhencev</authors>
+        <projectUrl>https://github.com/whyleee/EPiTranslator</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple EPiServer plug-in for translations using code-first approach.</description>
+        <releaseNotes>- Easier API
+- Redesigned fallbacks approach
+- EPiServer 7 support</releaseNotes>
+        <dependencies>
+            <dependency id="EPiServer.Framework" version="7.0.859.1" />
+            <dependency id="Perks" version="1.3" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+            <frameworkAssembly assemblyName="System" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="net45\EPiTranslator.dll" target="lib\net45\EPiTranslator.dll" />
+        <file src="net45\EPiTranslator.xml" target="lib\net45\EPiTranslator.xml" />
+    </files>
+</package>
